@@ -5,6 +5,7 @@
         "authors": ["Maxim Babenko", "Ignat Kolesnichenko", "Ilya Razenshteyn"],
         "title": "A Linear Time Algorithm for Finding Three Edge-Disjoint Paths in Eulerian Networks",
         "venue": "SOFSEM",
+        "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1003.3085", "main": true}],
         "year": 2010
     },
     {
@@ -13,6 +14,7 @@
         "authors": ["Maxim Babenko", "Alexey Gusakov", "Ilya Razenshteyn"],
         "title": "Triangle-Free 2-Matchings Revisited",
         "venue": "Discrete Mathematics, Algorithms and Applications",
+        "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1003.2697", "main": true}],
         "year": 2010
     },
     {
@@ -21,6 +23,7 @@
         "authors": ["Mikhail Andreev", "Ilya Razenshteyn", "Alexander Shen"],
         "title": "Not Every Domain of a Plain Decompressor Contains the Domain of a Prefix-Free One",
         "venue": "Theoretical Computer Science",
+        "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1001.4462", "main": true}],
         "year": 2011
     },
     {
@@ -29,6 +32,7 @@
         "authors": ["Daniel Delling", "Andrew Goldberg", "Ilya Razenshteyn", "Renato Werneck"],
         "title": "Graph Partitioning with Natural Cuts",
         "venue": "IPDPS",
+        "links": [{"text": "technical report", "url": "https://www.microsoft.com/en-us/research/publication/graph-partitioning-with-natural-cuts/", "main": true}],
         "year": 2011
     },
     {
@@ -37,6 +41,7 @@
         "authors": ["Andrew Goldberg", "Ilya Razenshteyn", "Ruslan Savchenko"],
         "title": "Separating Hierarchical and General Hub Labelings",
         "venue": "MFCS",
+        "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1304.5973", "main": true}],
         "year": 2013
     },
     {
@@ -45,6 +50,7 @@
         "authors": ["Piotr Indyk", "Ilya Razenshteyn"],
         "title": "On Model-Based RIP-1 Matrices",
         "venue": "ICALP",
+        "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1304.3604", "main": true}],
         "year": 2013
     },
     {
@@ -53,6 +59,7 @@
         "authors": ["Alexandr Andoni", "Piotr Indyk", "Huy Nguyen", "Ilya Razenshteyn"],
         "title": "Beyond Locality-Sensitive Hashing",
         "venue": "SODA",
+        "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1306.1547", "main": true}],
         "year": 2014
     },
     {
@@ -61,6 +68,7 @@
         "authors": ["Daniel Delling", "Daniel Fleischman", "Andrew Goldberg", "Ilya Razenshteyn", "Renato Werneck"],
         "title": "An Exact Combinatorial Algorithm for Minimum Graph Bisection",
         "venue": "Mathematical Programming",
+        "links": [{"text": "local copy", "url": "https://ilyaraz.org/static/papers/bisection.pdf", "main": true}],
         "year": 2015
     },
     {
@@ -69,6 +77,7 @@
         "authors": ["Silvio Lattanzi", "Stefano Leonardi", "Vahab Mirrokni", "Ilya Razenshteyn"],
         "title": "Robust Hierarchical $k$-Center Clustering",
         "venue": "ITCS",
+        "links": [{"text": "proceedings", "url": "https://dl.acm.org/citation.cfm?id=2688104", "main": true}],
         "year": 2015
     },
     {
@@ -77,14 +86,7 @@
         "authors": ["Alexandr Andoni", "Ilya Razenshteyn"],
         "title": "Optimal Data-Dependent Hashing for Approximate Near Neighbors",
         "venue": "STOC",
-        "year": 2015
-    },
-    {
-        "selected": false,
-        "key": "AGR15",
-        "authors": ["Zeyuan Allen-Zhu", "Rati Gelashvili", "Ilya Razenshteyn"],
-        "title": "Restricted Isometry Property for General p-Norms",
-        "venue": "SoCG",
+        "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1501.01062", "main": true}],
         "year": 2015
     },
     {
@@ -93,6 +95,7 @@
         "authors": ["Alexandr Andoni", "Piotr Indyk", "Thijs Laarhoven", "Ilya Razenshteyn", "Ludwig Schmidt"],
         "title": "Practical and Optimal LSH for Angular Distance",
         "venue": "NIPS",
+        "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1509.02897", "main": true}],
         "year": 2015
     },
     {
@@ -101,6 +104,16 @@
         "authors": ["Arturs Backurs", "Piotr Indyk", "Ilya Razenshteyn", "David Woodruff"],
         "title": "Nearly-optimal bounds for sparse recovery in generic norms, with applications to $k$-median sketching",
         "venue": "SODA",
+        "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1504.01076", "main": true}],
+        "year": 2016
+    },
+    {
+        "selected": false,
+        "key": "AGR16",
+        "authors": ["Zeyuan Allen-Zhu", "Rati Gelashvili", "Ilya Razenshteyn"],
+        "title": "Restricted Isometry Property for General p-Norms",
+        "venue": "IEEE Transactions in Information Theory",
+        "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1407.2178", "main": true}],
         "year": 2016
     },
     {
@@ -109,6 +122,7 @@
         "authors": ["Ilya Razenshteyn", "Zhao Song", "David Woodruff"],
         "title": "Weighted Low Rank Approximations with Provable Guarantees",
         "venue": "STOC",
+        "links": [{"text": "local copy", "url": "https://ilyaraz.org/static/papers/wlowrank.pdf", "main": true}],
         "year": 2016
     },
     {
@@ -117,6 +131,7 @@
         "authors": ["Alexandr Andoni", "Ilya Razenshteyn"],
         "title": "Tight Lower Bounds for Data-Dependent Locality-Sensitive Hashing",
         "venue": "SoCG",
+        "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1507.04299", "main": true}],
         "year": 2016
     },
     {
@@ -125,6 +140,7 @@
         "authors": ["Thomas Ahle", "Rasmus Pagh", "Ilya Razenshteyn", "Francesco Silvestri"],
         "title": "On the Complexity of Inner Product Similarity Join",
         "venue": "PODS",
+        "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1510.02824", "main": true}],
         "year": 2016
     },
     {
@@ -133,6 +149,7 @@
         "authors": ["Alexandr Andoni", "Thijs Laarhoven", "Ilya Razenshteyn", "Erik Waingarten"],
         "title": "Optimal Hashing-based Time&ndash;Space Tradeoffs for Approximate Near Neighbors",
         "venue": "SODA",
+        "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1608.03580", "main": true}],
         "year": 2017
     },
     {
@@ -141,6 +158,7 @@
         "authors": ["Alexandr Andoni", "Ilya Razenshteyn", "Negev Shekel&nbsp;Nosatzki"],
         "title": "LSH Forest: Practical Algorithms Made Theoretical",
         "venue": "SODA",
+        "links": [{"text": "local copy", "url": "https://ilyaraz.org/static/papers/lshforest.pdf", "main": true}],
         "year": 2017
     },
     {
@@ -149,6 +167,7 @@
         "authors": ["Alexandr Andoni", "Huy Nguyen", "Aleksandar Nikolov", "Ilya Razenshteyn", "Erik Waingarten"],
         "title": "Approximate Near Neighbors for General Symmetric Norms",
         "venue": "STOC",
+        "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1611.06222", "main": true}],
         "year": 2017
     },
     {
@@ -157,6 +176,7 @@
         "authors": ["Piotr Indyk", "Ilya Razenshteyn", "Tal Wagner"],
         "title": "Practical Data-Dependent Metric Compression with Provable Guarantees",
         "venue": "NIPS",
+        "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1711.01520", "main": true}],
         "year": 2017
     },
     {
@@ -165,6 +185,7 @@
         "authors": ["Alexandr Andoni", "Robert Krauthgamer", "Ilya Razenshteyn"],
         "title": "Sketching and Embedding are Equivalent for Norms",
         "venue": "SIAM Journal on Computing",
+        "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1411.2577", "main": true}],
         "year": 2018
     },
     {
@@ -173,6 +194,7 @@
         "authors": ["Sepideh Mahabadi", "Konstantin Makarychev", "Yury Makarychev", "Ilya Razenshteyn"],
         "title": "Nonlinear Dimension Reduction via Outer Bi-Lipschitz Extensions",
         "venue": "STOC",
+        "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1811.03591", "main": true}],
         "year": 2018
     },
     {
@@ -181,6 +203,7 @@
         "authors": ["Alexandr Andoni", "Assaf Naor", "Aleksandar Nikolov", "Ilya Razenshteyn", "Erik Waingarten"],
         "title": "Data-Dependent Hashing via Nonlinear Spectral Gaps",
         "venue": "STOC",
+        "links": [{"text": "local copy", "url": "https://ilyaraz.org/static/papers/spectral_gap.pdf", "main": true}],
         "year": 2018
     },
     {
@@ -189,6 +212,7 @@
         "authors": ["Alexandr Andoni", "Assaf Naor", "Aleksandar Nikolov", "Ilya Razenshteyn", "Erik Waingarten"],
         "title": "Hölder Homeomorphisms and Approximate Nearest Neighbors",
         "venue": "FOCS",
+        "links": [{"text": "local copy", "url": "https://ilyaraz.org/static/papers/daher.pdf", "main": true}],
         "year": 2018
     },
     {
@@ -197,6 +221,7 @@
         "authors": ["Konstantin Makarychev", "Yury Makarychev", "Ilya Razenshteyn"],
         "title": "Performance of Johnson&ndash;Lindenstrauss Transform for $k$-Means and $k$-Medians Clustering",
         "venue": "STOC",
+        "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1811.03195", "main": true}],
         "year": 2019
     },
     {
@@ -205,6 +230,7 @@
         "authors": ["Jerry Li", "Aleksandar Nikolov", "Ilya Razenshteyn", "Erik Waingarten"],
         "title": "On Mean Estimation for General Norms with Statistical Queries",
         "venue": "COLT",
+        "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1902.02459", "main": true}],
         "year": 2019
     },
     {
@@ -213,6 +239,7 @@
         "authors": ["Sébastien Bubeck", "Yin Tat Lee", "Eric Price", "Ilya Razenshteyn"],
         "title": "Adversarial examples from computational constraints",
         "venue": "ICML",
+        "links": [{"text": "arXiv part 1", "url": "https://arxiv.org/abs/1805.10204", "main": true}, {"text": "arXiv part 2", "url": "https://arxiv.org/abs/1811.06418", "main": true}],
         "year": 2019
     }
 ]

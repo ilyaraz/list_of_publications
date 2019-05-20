@@ -10,14 +10,19 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      currentPath: window.location.pathname,
       papers: data
     }
+  }
+
+  setCurrentPath = (path) => {
+    this.setState({...this.state, currentPath: path});
   }
 
   render() {
     return (<div className="App">
       <Router>
-        <Menu/>
+        <Menu currentPath={this.state.currentPath} setCurrentPath={this.setCurrentPath}/>
         <Route exact path="/" render={props => <Papers papers={this.state.papers}/>}/>
         <Route exact path="/selected" render={props => <Papers papers={this.state.papers.filter(paper => paper.selected)}/>}/>
       </Router>
