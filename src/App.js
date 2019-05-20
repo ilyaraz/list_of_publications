@@ -1,34 +1,26 @@
 import React from 'react';
 import './App.css';
 import Papers from './Papers'
+import data from './pubs.json'
+import {BrowserRouter as Router, Route} from 'react-router-dom'
+import Menu from './Menu'
 
 class App extends React.Component {
 
-  state = {
-    papers: [
-      {
-        title: "Triangle-Free 2-Matchings Revisited",
-        authors: ["Maxim Babenko", "Alexey Gusakov", "Ilya Razenshteyn"]
-      },
-      {
-        title: "Not Every Domain of a Plain Decompressor Contains the Domain of a Prefix-Free One",
-        authors: ["Mikhail Andreev", "Ilya Razenshteyn", "Alexander Shen"]
-      },
-      {
-        title: "An Exact Combinatorial Algorithm for Minimum Graph Bisection",
-        authors: ["Daniel Delling", "Daniel Fleischman", "Andrew Goldberg", "Ilya Razenshteyn", "Renato Werneck"]
-      },
-      {
-        title: "Restricted Isometry Property for General p-Norms",
-        authors: ["Zeyuan Allen-Zhu", "Rati Gelashvili", "Ilya Razenshteyn"]
-      }
-    ]
+  constructor(props) {
+    super(props);
+    this.state = {
+      papers: data
+    }
   }
 
   render() {
-    console.log(this.state)
     return (<div className="App">
-      <Papers papers={this.state.papers}/>
+      <Router>
+        <Menu/>
+        <Route exact path="/" render={props => <Papers papers={this.state.papers}/>}/>
+        <Route exact path="/selected" render={props => <Papers papers={this.state.papers.filter(paper => paper.selected)}/>}/>
+      </Router>
     </div>)
   }
 }

@@ -4,9 +4,7 @@ import Paper from './Paper'
 class Papers extends React.Component {
     render() {
         return (
-            <ol>
-                {this.props.papers.map(paper => <li><Paper paper={paper}/></li>)}
-            </ol>
+            <ol>{this.props.papers.reverse().map(paper => <li key={paper.key}><Paper paper={paper}/></li>)}</ol>
         )
     }
 }

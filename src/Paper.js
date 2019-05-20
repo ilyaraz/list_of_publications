@@ -2,8 +2,9 @@ import React from 'react'
 
 class Paper extends React.Component {
     render() {
-        const authors = this.props.paper.authors.map(author => <React.Fragment>{getShortAuthor(author)}, </React.Fragment>);
-        return <React.Fragment>{authors}<b>&ldquo;{this.props.paper.title}&rdquo;</b></React.Fragment>
+        const {key, title, authors, venue, year} = this.props.paper;
+        const renderedAuthors = authors.map(author => <React.Fragment key={author}>{getShortAuthor(author)}, </React.Fragment>);
+        return <React.Fragment key={key}>{renderedAuthors}<b>&ldquo;{title}&rdquo;</b>, {venue}, {year}.</React.Fragment>
     }
 }
 
