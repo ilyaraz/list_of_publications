@@ -1,26 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Papers from './Papers'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+
+  state = {
+    papers: [
+      {
+        title: "Triangle-Free 2-Matchings Revisited",
+        authors: ["Maxim Babenko", "Alexey Gusakov", "Ilya Razenshteyn"]
+      },
+      {
+        title: "Not Every Domain of a Plain Decompressor Contains the Domain of a Prefix-Free One",
+        authors: ["Mikhail Andreev", "Ilya Razenshteyn", "Alexander Shen"]
+      },
+      {
+        title: "An Exact Combinatorial Algorithm for Minimum Graph Bisection",
+        authors: ["Daniel Delling", "Daniel Fleischman", "Andrew Goldberg", "Ilya Razenshteyn", "Renato Werneck"]
+      },
+      {
+        title: "Restricted Isometry Property for General p-Norms",
+        authors: ["Zeyuan Allen-Zhu", "Rati Gelashvili", "Ilya Razenshteyn"]
+      }
+    ]
+  }
+
+  render() {
+    console.log(this.state)
+    return (<div className="App">
+      <Papers papers={this.state.papers}/>
+    </div>)
+  }
 }
 
 export default App;
