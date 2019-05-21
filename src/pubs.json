@@ -6,6 +6,7 @@
         "title": "A Linear Time Algorithm for Finding Three Edge-Disjoint Paths in Eulerian Networks",
         "venue": "SOFSEM",
         "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1003.3085", "main": true}],
+        "lines": [],
         "year": 2010
     },
     {
@@ -15,6 +16,7 @@
         "title": "Triangle-Free 2-Matchings Revisited",
         "venue": "Discrete Mathematics, Algorithms and Applications",
         "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1003.2697", "main": true}],
+        "lines": [{"text": "Special issue", "emph": true}, {"text": "An extended abstract appeared in COCOON 2010.", "emph": false}],
         "year": 2010
     },
     {
@@ -24,6 +26,7 @@
         "title": "Not Every Domain of a Plain Decompressor Contains the Domain of a Prefix-Free One",
         "venue": "Theoretical Computer Science",
         "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1001.4462", "main": true}],
+        "lines": [],
         "year": 2011
     },
     {
@@ -33,6 +36,7 @@
         "title": "Graph Partitioning with Natural Cuts",
         "venue": "IPDPS",
         "links": [{"text": "technical report", "url": "https://www.microsoft.com/en-us/research/publication/graph-partitioning-with-natural-cuts/", "main": true}],
+        "lines": [],
         "year": 2011
     },
     {
@@ -42,6 +46,7 @@
         "title": "Separating Hierarchical and General Hub Labelings",
         "venue": "MFCS",
         "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1304.5973", "main": true}],
+        "lines": [],
         "year": 2013
     },
     {
@@ -51,6 +56,7 @@
         "title": "On Model-Based RIP-1 Matrices",
         "venue": "ICALP",
         "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1304.3604", "main": true}],
+        "lines": [],
         "year": 2013
     },
     {
@@ -60,6 +66,7 @@
         "title": "Beyond Locality-Sensitive Hashing",
         "venue": "SODA",
         "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1306.1547", "main": true}],
+        "lines": [],
         "year": 2014
     },
     {
@@ -69,6 +76,7 @@
         "title": "An Exact Combinatorial Algorithm for Minimum Graph Bisection",
         "venue": "Mathematical Programming",
         "links": [{"text": "local copy", "url": "https://ilyaraz.org/static/papers/bisection.pdf", "main": true}],
+        "lines": [{"text": "An extended abstract appeared in ALENEX 2012.", "emph": false}],
         "year": 2015
     },
     {
@@ -78,6 +86,7 @@
         "title": "Robust Hierarchical $k$-Center Clustering",
         "venue": "ITCS",
         "links": [{"text": "proceedings", "url": "https://dl.acm.org/citation.cfm?id=2688104", "main": true}],
+        "lines": [],
         "year": 2015
     },
     {
@@ -87,6 +96,7 @@
         "title": "Optimal Data-Dependent Hashing for Approximate Near Neighbors",
         "venue": "STOC",
         "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1501.01062", "main": true}],
+        "lines": [{"text": "Invited to Highlights of Algorithms 2016", "emph": true}],
         "year": 2015
     },
     {
@@ -96,6 +106,7 @@
         "title": "Practical and Optimal LSH for Angular Distance",
         "venue": "NIPS",
         "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1509.02897", "main": true}],
+        "lines": [],
         "year": 2015
     },
     {
@@ -105,6 +116,7 @@
         "title": "Nearly-optimal bounds for sparse recovery in generic norms, with applications to $k$-median sketching",
         "venue": "SODA",
         "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1504.01076", "main": true}],
+        "lines": [],
         "year": 2016
     },
     {
@@ -114,6 +126,7 @@
         "title": "Restricted Isometry Property for General p-Norms",
         "venue": "IEEE Transactions in Information Theory",
         "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1407.2178", "main": true}],
+        "lines": [{"text": "An extended abstract appeared in SoCG 2015.", "emph": false}],
         "year": 2016
     },
     {
@@ -123,6 +136,7 @@
         "title": "Weighted Low Rank Approximations with Provable Guarantees",
         "venue": "STOC",
         "links": [{"text": "local copy", "url": "https://ilyaraz.org/static/papers/wlowrank.pdf", "main": true}],
+        "lines": [],
         "year": 2016
     },
     {
@@ -132,6 +146,7 @@
         "title": "Tight Lower Bounds for Data-Dependent Locality-Sensitive Hashing",
         "venue": "SoCG",
         "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1507.04299", "main": true}],
+        "lines": [{"text": "Invited to Highlights of Algorithms 2017", "emph": true}],
         "year": 2016
     },
     {
@@ -141,6 +156,7 @@
         "title": "On the Complexity of Inner Product Similarity Join",
         "venue": "PODS",
         "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1510.02824", "main": true}],
+        "lines": [],
         "year": 2016
     },
     {
@@ -150,6 +166,7 @@
         "title": "Optimal Hashing-based Time&ndash;Space Tradeoffs for Approximate Near Neighbors",
         "venue": "SODA",
         "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1608.03580", "main": true}],
+        "lines": [{"text": "Invited to the special issue of ACM Transactions in Algorithms", "emph": true}],
         "year": 2017
     },
     {
@@ -159,6 +176,7 @@
         "title": "LSH Forest: Practical Algorithms Made Theoretical",
         "venue": "SODA",
         "links": [{"text": "local copy", "url": "https://ilyaraz.org/static/papers/lshforest.pdf", "main": true}],
+        "lines": [{"text": "Invited to Highlights of Algorithms 2018", "emph": true}],
         "year": 2017
     },
     {
@@ -168,6 +186,7 @@
         "title": "Approximate Near Neighbors for General Symmetric Norms",
         "venue": "STOC",
         "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1611.06222", "main": true}],
+        "lines": [],
         "year": 2017
     },
     {
@@ -177,6 +196,7 @@
         "title": "Practical Data-Dependent Metric Compression with Provable Guarantees",
         "venue": "NIPS",
         "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1711.01520", "main": true}],
+        "lines": [],
         "year": 2017
     },
     {
@@ -186,6 +206,17 @@
         "title": "Sketching and Embedding are Equivalent for Norms",
         "venue": "SIAM Journal on Computing",
         "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1411.2577", "main": true}],
+        "lines": [{"text": "Special issue", "emph": true}, {"text": "Invited to Highlights of Algorithms 2016", "emph": true}, {"text": "An extended abstract appeared in STOC 2015.", "emph": false}],
+        "year": 2018
+    },
+    {
+        "selected": false,
+        "key": "AIR18",
+        "authors": ["Alexandr Andoni", "Piotr Indyk", "Ilya Razenshteyn"],
+        "title": "Approximate Nearest Neighbor Search in High Dimensions",
+        "venue": "Proceedings of ICM",
+        "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1806.09823", "main": true}],
+        "lines": [{"text": "This survey paper accompanied the ICM 2018 talk of P. Indyk.", "emph": false}],
         "year": 2018
     },
     {
@@ -195,6 +226,7 @@
         "title": "Nonlinear Dimension Reduction via Outer Bi-Lipschitz Extensions",
         "venue": "STOC",
         "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1811.03591", "main": true}],
+        "lines": [],
         "year": 2018
     },
     {
@@ -204,6 +236,7 @@
         "title": "Data-Dependent Hashing via Nonlinear Spectral Gaps",
         "venue": "STOC",
         "links": [{"text": "local copy", "url": "https://ilyaraz.org/static/papers/spectral_gap.pdf", "main": true}],
+        "lines": [],
         "year": 2018
     },
     {
@@ -213,6 +246,7 @@
         "title": "Hölder Homeomorphisms and Approximate Nearest Neighbors",
         "venue": "FOCS",
         "links": [{"text": "local copy", "url": "https://ilyaraz.org/static/papers/daher.pdf", "main": true}],
+        "lines": [],
         "year": 2018
     },
     {
@@ -222,6 +256,7 @@
         "title": "Performance of Johnson&ndash;Lindenstrauss Transform for $k$-Means and $k$-Medians Clustering",
         "venue": "STOC",
         "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1811.03195", "main": true}],
+        "lines": [{"text": "Invited to the special issue of Theory of Computing", "emph": true}],
         "year": 2019
     },
     {
@@ -231,6 +266,7 @@
         "title": "On Mean Estimation for General Norms with Statistical Queries",
         "venue": "COLT",
         "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1902.02459", "main": true}],
+        "lines": [],
         "year": 2019
     },
     {
@@ -240,6 +276,7 @@
         "title": "Adversarial examples from computational constraints",
         "venue": "ICML",
         "links": [{"text": "arXiv part 1", "url": "https://arxiv.org/abs/1805.10204", "main": true}, {"text": "arXiv part 2", "url": "https://arxiv.org/abs/1811.06418", "main": true}],
+        "lines": [{"text": "Accepted as a long talk", "emph": true}],
         "year": 2019
     }
 ]

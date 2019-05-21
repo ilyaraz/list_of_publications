@@ -4,6 +4,7 @@ import Papers from './Papers'
 import data from './pubs.json'
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 import Menu from './Menu'
+import { Container } from 'react-bootstrap'
 
 class App extends React.Component {
 
@@ -23,8 +24,10 @@ class App extends React.Component {
     return (<div className="App">
       <Router>
         <Menu currentPath={this.state.currentPath} setCurrentPath={this.setCurrentPath}/>
-        <Route exact path="/" render={props => <Papers papers={this.state.papers}/>}/>
+        <Container>
+        <Route exact path="/" render={props => <Papers papers={this.state.papers} currentPath={this.state.currentPath}/>}/>
         <Route exact path="/selected" render={props => <Papers papers={this.state.papers.filter(paper => paper.selected)}/>}/>
+        </Container>
       </Router>
     </div>)
   }

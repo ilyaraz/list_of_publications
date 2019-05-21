@@ -1,8 +1,9 @@
 import React from 'react'
+import './Paper.css'
 
 class Paper extends React.Component {
     render() {
-        const {key, title, authors, venue, year, links} = this.props.paper;
+        const {key, title, authors, venue, year, links, lines} = this.props.paper;
         const processedLinks = links.filter(link => link.main).map(link => <a href={link.url} target="_blank" rel="noopener noreferrer">{link.text}</a>);
         const processedLinksWithCommas = [];
         for (let i = 0; i < processedLinks.length; ++i) {
@@ -12,7 +13,8 @@ class Paper extends React.Component {
             }
         }
         const renderedAuthors = authors.map(author => <React.Fragment key={author}>{getShortAuthor(author)}, </React.Fragment>);
-        return <React.Fragment key={key}>{renderedAuthors}<b>&ldquo;{title}&rdquo;</b>, {venue}, {year} ({processedLinksWithCommas}).</React.Fragment>
+        const processedLines = [lines.map(line => <React.Fragment><br/>{line.emph ? <span class="emph-line">{line.text}</span> : line.text}</React.Fragment>)];
+        return <React.Fragment key={key}>{renderedAuthors}<b>&ldquo;{title}&rdquo;</b>, {venue}, {year} ({processedLinksWithCommas}).{processedLines}</React.Fragment>
     }
 }
 
