@@ -2,33 +2,34 @@ import React from 'react';
 import './App.css';
 import Papers from './Papers'
 import data from './pubs.json'
-import {BrowserRouter as Router, Route} from 'react-router-dom'
 import Menu from './Menu'
 import { Container } from 'react-bootstrap'
+
 
 class App extends React.Component {
 
   constructor(props) {
     super(props);
     this.state = {
-      currentPath: window.location.pathname,
+      selected: true,
       papers: data
     }
   }
 
-  setCurrentPath = (path) => {
-    this.setState({...this.state, currentPath: path});
+  setSelected = (b) => {
+    this.setState({ ...this.state, selected: b });
+  }
+
+  componentDidUpdate() {
+    console.log("Update!");
   }
 
   render() {
     return (<div className="App">
-      <Router>
-        <Menu currentPath={this.state.currentPath} setCurrentPath={this.setCurrentPath}/>
-        <Container>
-        <Route exact path="/" render={props => <Papers papers={this.state.papers} currentPath={this.state.currentPath}/>}/>
-        <Route exact path="/selected" render={props => <Papers papers={this.state.papers.filter(paper => paper.selected)}/>}/>
-        </Container>
-      </Router>
+      <Menu selected={this.state.selected} setSelected={this.setSelected} />
+      <Container>
+        <Papers selected={this.state.selected} papers={this.state.papers} />
+      </Container>
     </div>)
   }
 }

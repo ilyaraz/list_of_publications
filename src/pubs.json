@@ -163,7 +163,7 @@
         "selected": true,
         "key": "ALRW17",
         "authors": ["Alexandr Andoni", "Thijs Laarhoven", "Ilya Razenshteyn", "Erik Waingarten"],
-        "title": "Optimal Hashing-based Time&ndash;Space Tradeoffs for Approximate Near Neighbors",
+        "title": "Optimal Hashing-based Time–Space Tradeoffs for Approximate Near Neighbors",
         "venue": "SODA",
         "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1608.03580", "main": true}],
         "lines": [{"text": "Invited to the special issue of ACM Transactions in Algorithms", "emph": true}],
@@ -172,7 +172,7 @@
     {
         "selected": false,
         "key": "ARS17",
-        "authors": ["Alexandr Andoni", "Ilya Razenshteyn", "Negev Shekel&nbsp;Nosatzki"],
+        "authors": ["Alexandr Andoni", "Ilya Razenshteyn", "Negev Shekel Nosatzki"],
         "title": "LSH Forest: Practical Algorithms Made Theoretical",
         "venue": "SODA",
         "links": [{"text": "local copy", "url": "https://ilyaraz.org/static/papers/lshforest.pdf", "main": true}],
@@ -187,6 +187,16 @@
         "venue": "STOC",
         "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1611.06222", "main": true}],
         "lines": [],
+        "year": 2017
+    },
+    {
+        "selected": true,
+        "key": "R17",
+        "authors": ["Ilya Razenshteyn"],
+        "title": "High-Dimensional Similarity Search and Sketching: Algorithms and Hardness",
+        "venue": "Ph.D. Thesis",
+        "links": [{"text": "local copy", "url": "https://ilyaraz.org/static/papers/phd_thesis.pdf", "main": true}],
+        "lines": [{"text": "George W. Sprowls Award for the outstanding Ph.D. theses in Computer Science", "emph": true}, {"text": "EATCS Distinguished Dissertation Award", "emph": true}],
         "year": 2017
     },
     {
@@ -253,7 +263,7 @@
         "selected": true,
         "key": "MMR19",
         "authors": ["Konstantin Makarychev", "Yury Makarychev", "Ilya Razenshteyn"],
-        "title": "Performance of Johnson&ndash;Lindenstrauss Transform for $k$-Means and $k$-Medians Clustering",
+        "title": "Performance of Johnson–Lindenstrauss Transform for $k$-Means and $k$-Medians Clustering",
         "venue": "STOC",
         "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1811.03195", "main": true}],
         "lines": [{"text": "Invited to the special issue of Theory of Computing", "emph": true}],
@@ -276,7 +286,7 @@
         "title": "Adversarial examples from computational constraints",
         "venue": "ICML",
         "links": [{"text": "arXiv part 1", "url": "https://arxiv.org/abs/1805.10204", "main": true}, {"text": "arXiv part 2", "url": "https://arxiv.org/abs/1811.06418", "main": true}],
-        "lines": [{"text": "Accepted as a long talk", "emph": true}],
+        "lines": [{"text": "Accepted as a long talk", "emph": true}, {"text": "Preliminary version appeared in NeurIPS 2018 Workshop on Security in Machine Learning.", "emph": false}],
         "year": 2019
     }
 ]
