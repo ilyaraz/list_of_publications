@@ -20,10 +20,6 @@ class App extends React.Component {
     this.setState({ ...this.state, selected: b });
   }
 
-  componentDidUpdate() {
-    console.log("Update!");
-  }
-
   render() {
     return (<div className="App">
       <Menu selected={this.state.selected} setSelected={this.setSelected} />

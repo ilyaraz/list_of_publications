@@ -288,5 +288,25 @@
         "links": [{"text": "arXiv part 1", "url": "https://arxiv.org/abs/1805.10204", "main": true}, {"text": "arXiv part 2", "url": "https://arxiv.org/abs/1811.06418", "main": true}],
         "lines": [{"text": "Accepted as a long talk", "emph": true}, {"text": "Preliminary version appeared in NeurIPS 2018 Workshop on Security in Machine Learning.", "emph": false}],
         "year": 2019
+    },
+    {
+        "selected": false,
+        "key": "DIRW19",
+        "authors": ["Yihe Dong", "Piotr Indyk", "Ilya Razenshteyn", "Tal Wagner"],
+        "title": "Learning Sublinear-Time Indexing for Nearest Neighbor Search",
+        "venue": "manuscript",
+        "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1901.08544", "main": true}],
+        "lines": [],
+        "year": 2019
+    },
+    {
+        "selected": false,
+        "key": "CCDPRR19",
+        "authors": ["Hao Chen", "Ilaria Chillotti", "Yihe Dong", "Oxana Poburinnaya", "Ilya Razenshteyn", "Mohammad S. Riazi"],
+        "title": "SANNS: Scaling Up Secure Approximate $k$-Nearest Neighbors Search",
+        "venue": "manuscript",
+        "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1904.02033", "main": true}],
+        "lines": [{"text": "Preliminary version appeared in NeurIPS 2018 workshop \"Privacy Preserving Machine Learning.\"", "emph": false}],
+        "year": 2019
     }
 ]
