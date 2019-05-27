@@ -1,0 +1,11 @@
+a {
+    color: #d22;
+    border-bottom: 1px dashed;
+    text-decoration: none;
+}
+a:hover {
+    border-bottom: 2px solid;
+}
+a:visited {
+    color: #711;
+}
