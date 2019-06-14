@@ -308,5 +308,15 @@
         "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1904.02033", "main": true}],
         "lines": [{"text": "Preliminary version appeared in NeurIPS 2018 workshop \"Privacy Preserving Machine Learning.\"", "emph": false}],
         "year": 2019
+    },
+    {
+        "selected": false,
+        "key": "SYLZZRB19",
+        "authors": ["Hadi Salman", "Greg Yang", "Jerry Li", "Pengchuan Zhang", "Huan Zhang", "Ilya Razenshteyn", "Sébastien Bubeck"],
+        "title": "Provably Robust Deep Learning via Adversarially Trained Smoothed Classifiers",
+        "venue": "manuscript",
+        "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1906.04584", "main": true}],
+        "lines": [],
+        "year": 2019
     }
 ]
