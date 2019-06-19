@@ -293,7 +293,7 @@
         "selected": false,
         "key": "DIRW19",
         "authors": ["Yihe Dong", "Piotr Indyk", "Ilya Razenshteyn", "Tal Wagner"],
-        "title": "Learning Sublinear-Time Indexing for Nearest Neighbor Search",
+        "title": "Learning Space Partitions for Nearest Neighbor Search",
         "venue": "manuscript",
         "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1901.08544", "main": true}],
         "lines": [],
