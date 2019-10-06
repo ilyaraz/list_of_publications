@@ -266,7 +266,7 @@
         "title": "Performance of Johnson–Lindenstrauss Transform for $k$-Means and $k$-Medians Clustering",
         "venue": "STOC",
         "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1811.03195", "main": true}],
-        "lines": [{"text": "Invited to the special issue of Theory of Computing", "emph": true}],
+        "lines": [{"text": "Invited to the special issue of Theory of Computing", "emph": true}, {"text": "Invited to the STOC 2019 special issue of SIAM Journal on Computing", "emph": true}],
         "year": 2019
     },
     {
@@ -291,6 +291,16 @@
     },
     {
         "selected": false,
+        "key": "SYLZZRB19",
+        "authors": ["Hadi Salman", "Greg Yang", "Jerry Li", "Pengchuan Zhang", "Huan Zhang", "Ilya Razenshteyn", "Sébastien Bubeck"],
+        "title": "Provably Robust Deep Learning via Adversarially Trained Smoothed Classifiers",
+        "venue": "NeurIPS",
+        "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1906.04584", "main": true}],
+        "lines": [{"text": "Accepted as a spotlight talk", "emph": true}],
+        "year": 2019
+    },
+    {
+        "selected": false,
         "key": "DIRW19",
         "authors": ["Yihe Dong", "Piotr Indyk", "Ilya Razenshteyn", "Tal Wagner"],
         "title": "Learning Space Partitions for Nearest Neighbor Search",
@@ -307,16 +317,6 @@
         "venue": "manuscript",
         "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1904.02033", "main": true}],
         "lines": [{"text": "Preliminary version appeared in NeurIPS 2018 workshop \"Privacy Preserving Machine Learning.\"", "emph": false}],
-        "year": 2019
-    },
-    {
-        "selected": false,
-        "key": "SYLZZRB19",
-        "authors": ["Hadi Salman", "Greg Yang", "Jerry Li", "Pengchuan Zhang", "Huan Zhang", "Ilya Razenshteyn", "Sébastien Bubeck"],
-        "title": "Provably Robust Deep Learning via Adversarially Trained Smoothed Classifiers",
-        "venue": "manuscript",
-        "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1906.04584", "main": true}],
-        "lines": [],
         "year": 2019
     }
 ]
