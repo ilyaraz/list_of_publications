@@ -318,5 +318,15 @@
         "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1904.02033", "main": true}],
         "lines": [{"text": "Preliminary version appeared in NeurIPS 2018 workshop \"Privacy Preserving Machine Learning.\"", "emph": false}],
         "year": 2019
+    },
+    {
+        "selected": false,
+        "key": "DIRW19a",
+        "authors": ["Yihe Dong", "Piotr Indyk", "Ilya Razenshteyn", "Tal Wagner"],
+        "title": "Scalable Nearest Neighbor Search for Optimal Transport",
+        "venue": "manuscript",
+        "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1910.04126", "main": true}],
+        "lines": [{"text": "Preliminary version appeared in NeurIPS 2019 workshop \"Optimal Transport & Machine Learning.\"", "emph": false}],
+        "year": 2019
     }
 ]
