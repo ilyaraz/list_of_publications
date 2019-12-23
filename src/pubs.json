@@ -105,7 +105,7 @@
         "authors": ["Alexandr Andoni", "Piotr Indyk", "Thijs Laarhoven", "Ilya Razenshteyn", "Ludwig Schmidt"],
         "title": "Practical and Optimal LSH for Angular Distance",
         "venue": "NIPS",
-        "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1509.02897", "main": true}],
+        "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1509.02897", "main": true}, {"text": "code", "url": "https://github.com/falconn-lib/falconn", "main": true}],
         "lines": [],
         "year": 2015
     },
@@ -205,7 +205,7 @@
         "authors": ["Piotr Indyk", "Ilya Razenshteyn", "Tal Wagner"],
         "title": "Practical Data-Dependent Metric Compression with Provable Guarantees",
         "venue": "NIPS",
-        "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1711.01520", "main": true}],
+        "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1711.01520", "main": true}, {"text": "code", "url": "https://github.com/talwagner/quadsketch", "main": true}],
         "lines": [],
         "year": 2017
     },
@@ -295,19 +295,19 @@
         "authors": ["Hadi Salman", "Greg Yang", "Jerry Li", "Pengchuan Zhang", "Huan Zhang", "Ilya Razenshteyn", "Sébastien Bubeck"],
         "title": "Provably Robust Deep Learning via Adversarially Trained Smoothed Classifiers",
         "venue": "NeurIPS",
-        "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1906.04584", "main": true}],
+        "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1906.04584", "main": true}, {"text": "code", "url": "https://github.com/Hadisalman/smoothing-adversarial", "main": true}, {"text": "blog post", "url": "https://www.microsoft.com/en-us/research/blog/provable-guarantees-come-to-the-rescue-to-break-attack-defense-cycle-in-adversarial-machine-learning/", "main": true}],
         "lines": [{"text": "Accepted as a spotlight talk", "emph": true}],
         "year": 2019
     },
     {
-        "selected": false,
+        "selected": true,
         "key": "DIRW19",
         "authors": ["Yihe Dong", "Piotr Indyk", "Ilya Razenshteyn", "Tal Wagner"],
         "title": "Learning Space Partitions for Nearest Neighbor Search",
-        "venue": "manuscript",
-        "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1901.08544", "main": true}],
+        "venue": "ICLR",
+        "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1901.08544", "main": true}, {"text": "code", "url": "https://github.com/twistedcubic/learn-to-hash", "main": true}],
         "lines": [],
-        "year": 2019
+        "year": 2020
     },
     {
         "selected": false,
