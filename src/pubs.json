@@ -311,7 +311,7 @@
     },
     {
         "selected": false,
-        "key": "",
+        "key": "ZNVKR20",
         "authors": ["Amir Zandieh", "Navid Nouri", "Ameya Velingker", "Michael Kapralov", "Ilya Razenshteyn"],
         "title": "Scaling up Kernel Ridge Regression via Locality Sensitive Hashing",
         "venue": "AISTATS",
