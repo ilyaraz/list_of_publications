@@ -311,6 +311,16 @@
     },
     {
         "selected": false,
+        "key": "",
+        "authors": ["Amir Zandieh", "Navid Nouri", "Ameya Velingker", "Michael Kapralov", "Ilya Razenshteyn"],
+        "title": "Scaling up Kernel Ridge Regression via Locality Sensitive Hashing",
+        "venue": "AISTATS",
+        "links": [],
+        "lines": [],
+        "year": 2020
+    },
+    {
+        "selected": false,
         "key": "CCDPRR19",
         "authors": ["Hao Chen", "Ilaria Chillotti", "Yihe Dong", "Oxana Poburinnaya", "Ilya Razenshteyn", "Mohammad S. Riazi"],
         "title": "SANNS: Scaling Up Secure Approximate $k$-Nearest Neighbors Search",
