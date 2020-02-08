@@ -7,16 +7,23 @@ class Paper extends React.Component {
     render() {
         const { title, authors, venue, year, links, lines } = this.props.paper;
         const processedLinks = links.filter(link => link.main).map(link => <a href={link.url} target="_blank" rel="noopener noreferrer">{link.text}</a>);
-        const processedLinksWithCommas = [];
-        for (let i = 0; i < processedLinks.length; ++i) {
-            processedLinksWithCommas.push(processedLinks[i]);
-            if (i !== processedLinks.length - 1) {
-                processedLinksWithCommas.push(", ");
+        var result;
+        if (processedLinks.length === 0) {
+            result = <React.Fragment></React.Fragment>;
+        }
+        else {            
+            const processedLinksWithCommas = [];
+            for (let i = 0; i < processedLinks.length; ++i) {
+                processedLinksWithCommas.push(processedLinks[i]);
+                if (i !== processedLinks.length - 1) {
+                    processedLinksWithCommas.push(", ");
+                }
             }
+            result = <React.Fragment>&nbsp;({processedLinksWithCommas})</React.Fragment>;
         }
         const renderedAuthors = authors.map(author => <React.Fragment key={author}>{getShortAuthor(author)}, </React.Fragment>);
         const processedLines = this.props.selected ? [] : [lines.map(line => <React.Fragment><br />{line.emph ? <span class="emph-line">{line.text}</span> : line.text}</React.Fragment>)];
-        return <MathJax.Text inline text={<React.Fragment>{renderedAuthors}<b>&ldquo;{title}&rdquo;</b>, {venue},&nbsp;{year}&nbsp;({processedLinksWithCommas}).{processedLines}</React.Fragment>} />
+        return <MathJax.Text inline text={<React.Fragment>{renderedAuthors}<b>&ldquo;{title}&rdquo;</b>, {venue},&nbsp;{year}{result}.{processedLines}</React.Fragment>} />
     }
 }
 

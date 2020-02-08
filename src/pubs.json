@@ -311,6 +311,16 @@
     },
     {
         "selected": false,
+        "key": "ZNVKR20",
+        "authors": ["Amir Zandieh", "Navid Nouri", "Ameya Velingker", "Michael Kapralov", "Ilya Razenshteyn"],
+        "title": "Scaling up Kernel Ridge Regression via Locality Sensitive Hashing",
+        "venue": "AISTATS",
+        "links": [],
+        "lines": [],
+        "year": 2020
+    },
+    {
+        "selected": false,
         "key": "MRWZ20",
         "authors": ["Sepideh Mahabadi", "Ilya Razenshteyn", "David Woodruff", "Samson Zhou"],
         "title": "Non-Adaptive Adaptive Sampling on Turnstile Streams",
