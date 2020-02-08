@@ -246,7 +246,7 @@
         "title": "Data-Dependent Hashing via Nonlinear Spectral Gaps",
         "venue": "STOC",
         "links": [{"text": "local copy", "url": "https://ilyaraz.org/static/papers/spectral_gap.pdf", "main": true}],
-        "lines": [],
+        "lines": [{"text": "Featured in Quanta Magazine", "emph": true}, {"text": "Featured in Communications of the ACM", "emph": true}],
         "year": 2018
     },
     {
@@ -256,7 +256,7 @@
         "title": "Hölder Homeomorphisms and Approximate Nearest Neighbors",
         "venue": "FOCS",
         "links": [{"text": "local copy", "url": "https://ilyaraz.org/static/papers/daher.pdf", "main": true}],
-        "lines": [],
+        "lines": [{"text": "Featured in Quanta Magazine", "emph": true}, {"text": "Featured in Communications of the ACM", "emph": true}],
         "year": 2018
     },
     {
@@ -306,6 +306,16 @@
         "title": "Learning Space Partitions for Nearest Neighbor Search",
         "venue": "ICLR",
         "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1901.08544", "main": true}, {"text": "code", "url": "https://github.com/twistedcubic/learn-to-hash", "main": true}],
+        "lines": [],
+        "year": 2020
+    },
+    {
+        "selected": false,
+        "key": "MRWZ20",
+        "authors": ["Sepideh Mahabadi", "Ilya Razenshteyn", "David Woodruff", "Samson Zhou"],
+        "title": "Non-Adaptive Adaptive Sampling on Turnstile Streams",
+        "venue": "STOC",
+        "links": [],
         "lines": [],
         "year": 2020
     },
