@@ -342,7 +342,7 @@
     {
         "selected": false,
         "key": "DIRW19a",
-        "authors": ["Yihe Dong", "Piotr Indyk", "Ilya Razenshteyn", "Tal Wagner"],
+        "authors": ["Arturs Backurs", "Yihe Dong", "Piotr Indyk", "Ilya Razenshteyn", "Tal Wagner"],
         "title": "Scalable Nearest Neighbor Search for Optimal Transport",
         "venue": "manuscript",
         "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1910.04126", "main": true}],
