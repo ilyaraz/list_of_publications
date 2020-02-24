@@ -348,5 +348,15 @@
         "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1910.04126", "main": true}],
         "lines": [{"text": "Preliminary version appeared in NeurIPS 2019 workshop \"Optimal Transport & Machine Learning.\"", "emph": false}],
         "year": 2019
+    },
+    {
+        "selected": false,
+        "key": "YDHSRL20",
+        "authors": ["Greg Yang", "Tony Duan", "Edward Hu", "Hadi Salman", "Ilya Razenshteyn", "Jerry Li"],
+        "title": "Randomized Smoothing of All Shapes and Sizes",
+        "venue": "manuscript",
+        "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/2002.08118", "main": true}],
+        "lines": [],
+        "year": 2020
     }
 ]
