@@ -330,14 +330,14 @@
         "year": 2020
     },
     {
-        "selected": false,
+        "selected": true,
         "key": "CCDPRR19",
         "authors": ["Hao Chen", "Ilaria Chillotti", "Yihe Dong", "Oxana Poburinnaya", "Ilya Razenshteyn", "Mohammad S. Riazi"],
         "title": "SANNS: Scaling Up Secure Approximate $k$-Nearest Neighbors Search",
-        "venue": "manuscript",
+        "venue": "USENIX Security",
         "links": [{"text": "arXiv", "url": "https://arxiv.org/abs/1904.02033", "main": true}],
         "lines": [{"text": "Preliminary version appeared in NeurIPS 2018 workshop \"Privacy Preserving Machine Learning.\"", "emph": false}],
-        "year": 2019
+        "year": 2020
     },
     {
         "selected": false,
